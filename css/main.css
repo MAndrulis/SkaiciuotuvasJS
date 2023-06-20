@@ -49,36 +49,6 @@
     font-size: 2rem;
   }
   
-  .social {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    grid-gap: 15px;
-  }
-  
-  .social a {
-    display: inline-block;
-  }
-  
-  .social img {
-    width: 18px;
-    height: 18px;
-    opacity: 0.4;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-  
-  .social:hover {
-    opacity: 0.8;
-    margin-bottom: 1px;
-  }
-  
   /* start here */
   .playground {
     width: 300px;
@@ -94,7 +64,7 @@
   .playground .button {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     place-items: center;
