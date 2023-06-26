@@ -8,29 +8,23 @@
   }
   
   * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
   body {
     font-family: var(--font-family);
-    background: #ebf4f5;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ebf4f5), to(#b3c5df));
+
     background: linear-gradient(180deg, #ebf4f5 0%, #b3c5df 100%);
     color: var(--font-color);
     font-size: var(--font-size);
     line-height: 24px;
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
     position: relative;
   }
@@ -141,4 +135,3 @@
   .playground [data-state='selected'] {
     opacity: 1;
   }
-  
